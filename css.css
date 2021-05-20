@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  background-color:white;
+
+}
+h1{
+	text-align: center;
+  margin-bottom: 15px;
+}
+.animal{
+  background-color: blue;
+  border: 2px solid white;
+  margin: 10px;
+}
+section{
+  padding: 10px;
+  float: right;
+  border: 2px solid grey;
+  text-align: center;
+  font-size: 23px;
+  position: relative;
+}
+
+.title {
+  color: black;
+}
+.c1 section
+{
+  background-color: white;
+}
+.c2 section
+{
+  background-color: aqua;
+}
+.c3 section
+{
+  background-color: yellow;
+}
+p
+{
+  margin: 10px;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+.row 
+{
+  width: 100%;
+}
+
+@media (min-width: 992px) 
+{
+  .c1, .c2, .c3 
+  {
+    float: left;
+    width: 33.33%;
+  }
+
+ }
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .c1, .c2
+  {
+    float: left;
+    width: 50%;
+  }
+  .c3 
+  {
+  	float: left;
+    width: 100%;
+  }
+}
+  
